@@ -1,0 +1,39 @@
+Case 1 Add new book
+Enter Book ID (e.g., BK-001): BK-101
+Enter Book Title: The Hobbit
+Enter Author Name: J.R.R. Tolkien
+Enter genres (comma-separated, e.g., Sci-Fi, Adventure): Fantasy, Adventure
+Enter Publication Year and Page Count (comma-separated, e.g., 2021, 350): 1937, 310
+'The Hobbit' added successfully!
+
+Case 2 Search for a Book 
+Enter Book ID to search: BK-101
+
+Record for Book ID: BK-101
+Title: The Hobbit
+Author: J.R.R. Tolkien
+Genres: Fantasy
+Publication Year: 0 | Pages: 0
+
+Case 3  Update Book Details
+Enter Book ID to update: BK-101
+Note: Leave a field blank and press Enter to keep the current value.
+Enter new Title (The Hobbit): 
+Enter new Author (J.R.R. Tolkien): 
+Enter new genres (Fantasy): 
+Enter new Year and Pages (0, 0): 
+Book record updated successfully!
+
+Case 4 Display All Book
+--- All Books in Catalog ---
+ID: BK-111 | Title: 'THE LORD OF THE RINGS' by J.R.R. Tolkien | Genres: ['Fantasy'] | (Year, Pages): (0, 0)
+ID: BK-101 | Title: 'The Hobbit' by J.R.R. Tolkien | Genres: ['Fantasy'] | (Year, Pages): (0, 0)
+
+Case 5 Remove a Book 
+--- Remove Book ---
+Enter Book ID to remove: BK-111
+Success: 'THE LORD OF THE RINGS' has been removed from the catalog.
+
+Case 6 Exit
+Closing the Library Catalog System. Goodbye!
+PS C:\Users\Monette\Downloads\Beltran_JohnRoman_labactivity2> 
